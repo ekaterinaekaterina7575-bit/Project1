@@ -2,6 +2,8 @@
 #include <string>
 #include <vector>
 
+//посмотри структуры, векторы (METANIT), посмотри циклы
+
 using namespace std;
 struct Product
 {
@@ -18,6 +20,7 @@ int main()
     setlocale(0, "");
     Product cafe[5] = 
     {
+
         { 110, 10, "milk" },
         { 50, 70, "tea" },
         { 200, 10, "sugar" },
