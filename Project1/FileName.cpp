@@ -16,12 +16,13 @@ vector<Product> listProd;
 int main()
 {
     setlocale(0, "");
-    Product cafe[4] = 
+    Product cafe[5] = 
     {
         { 110, 10, "milk" },
         { 50, 70, "tea" },
         { 200, 10, "sugar" },
-        { 300, 10, "coffee" }
+        { 300, 10, "coffee" },
+          { 300, 10, "coffee" },
     };
     int Money = 1000;
        
